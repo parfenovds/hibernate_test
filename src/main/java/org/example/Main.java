@@ -14,14 +14,20 @@ public class Main {
     configuration.configure();
     configuration.addAnnotatedClass(Test.class);
     configuration.addAttributeConverter(new BirthdayConverter(), true);
+
     try(SessionFactory sessionFactory = configuration.buildSessionFactory();
     Session session = sessionFactory.openSession()) {
       session.beginTransaction();
       Test test = Test.builder().text("Hello?").birthday(new Birthday(LocalDate.of(1991, 4, 15))).build();
       session.persist(test);
+
       Test test1 = session.get(Test.class, 1);
       System.out.println(test1);
       session.getTransaction().commit();
+
+//      test1.setText("Bye bye");
+//      session.merge(test1);
     }
   }
 }
+

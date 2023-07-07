@@ -3,8 +3,10 @@ package org.example.converter;
 import jakarta.persistence.AttributeConverter;
 import java.sql.Date;
 import java.util.Optional;
-import org.example.entity.Birthday;
 
+import jakarta.persistence.Converter;
+import org.example.entity.Birthday;
+@Converter(autoApply = true)
 public class BirthdayConverter implements AttributeConverter<Birthday, Date> {
 
   @Override
