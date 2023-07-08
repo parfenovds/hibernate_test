@@ -32,17 +32,19 @@ public class HiberRunner {
              Session session = factory.openSession()) {
             session.beginTransaction();
             User user = User.builder()
-                    .firstName("Dmitriy")
-                    .lastName("Parfenov")
+                    .info(PersonInfo.builder()
+                            .userName("Vredina")
+                            .firstName("Dmitriy")
+                            .lastName("Parfenov")
+                            .birthDay(new Birthday(LocalDate.now()))
+                            .deathDay(new Deathday(LocalDate.now(), LocalDate.now().plusDays(10)))
+                            .build())
                     .role(Role.ADMIN)
                     .recipe(new Recipe("cancer", "lie in bed"))
-                    .birthDay(new Birthday(LocalDate.now()))
-                    .deathDay(new Deathday(LocalDate.now(), LocalDate.now().plusDays(10)))
                     .build();
-            log.info("User was builded {} at session {}", user, session);
             session.persist(user);
             session.getTransaction().commit();
-            log.error("Transaction was committed");
+
 
 
 

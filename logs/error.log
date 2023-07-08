@@ -2,3 +2,9 @@
 java.lang.Exception: Bla bla
 	at org.example.HiberRunner.main(HiberRunner.java:23) [classes/:?]
 2023-07-08 14:12:41,489 ERROR o.example [main] Transaction was committed
+2023-07-08 15:32:08,720 ERROR o.example [main] At try block error was occurred
+java.lang.Exception: Bla bla
+	at org.example.HiberRunner.main(HiberRunner.java:19) [classes/:?]
+2023-07-08 15:37:21,364 ERROR o.example [main] At try block error was occurred
+java.lang.Exception: Bla bla
+	at org.example.HiberRunner.main(HiberRunner.java:19) [classes/:?]

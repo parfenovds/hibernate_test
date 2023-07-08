@@ -20,15 +20,10 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String userName;
-    private String firstName;
-    private String lastName;
-
-    @Column(name = "birth_date")
-    private Birthday birthDay;
-
-    @Column(name ="death_date")
-    private Deathday deathDay;
+    @Embedded
+    @AttributeOverride(name = "birthDay", column = @Column(name = "birth_date"))
+    @AttributeOverride(name = "deathDay", column = @Column(name = "death_date"))
+    private PersonInfo info;
 
     @Enumerated(EnumType.STRING)
     private Role role;
