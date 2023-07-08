@@ -47,10 +47,6 @@ public class HiberRunner {
             System.out.println(user);
             session.getTransaction().commit();
             System.out.println(user);
-
-
-
-
         }
     }
 }

@@ -1,9 +1,9 @@
 DROP TABLE users;
+DROP SEQUENCE users_custom_id_seq;
 
 CREATE SEQUENCE IF NOT EXISTS users_custom_id_seq
-    minvalue 1
-    start with 1
-    increment by 10;
+    INCREMENT 10
+    START 10;
 
 CREATE TABLE IF NOT EXISTS users
 (
