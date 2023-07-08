@@ -2,8 +2,7 @@ DROP TABLE users;
 DROP SEQUENCE users_custom_id_seq;
 
 CREATE SEQUENCE IF NOT EXISTS users_custom_id_seq
-    INCREMENT 10
-    START 10;
+    INCREMENT 1;
 
 CREATE TABLE IF NOT EXISTS users
 (
