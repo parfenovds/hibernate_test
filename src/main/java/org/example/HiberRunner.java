@@ -35,7 +35,7 @@ public class HiberRunner {
                     .info(PersonInfo.builder()
                             .userName("Vredina")
                             .firstName("Dmitriy")
-                            .lastName("Parfenov")
+                            .lastName("Darfenov")
                             .birthDay(new Birthday(LocalDate.now()))
                             .deathDay(new Deathday(LocalDate.now(), LocalDate.now().plusDays(10)))
                             .build())

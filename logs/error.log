@@ -263,3 +263,12 @@ java.lang.Exception: Bla bla
 2023-07-08 17:40:17,091 ERROR o.example [main] At try block error was occurred
 java.lang.Exception: Bla bla
 	at org.example.HiberRunner.main(HiberRunner.java:19) [classes/:?]
+2023-07-08 17:56:25,964 ERROR o.example [main] At try block error was occurred
+java.lang.Exception: Bla bla
+	at org.example.HiberRunner.main(HiberRunner.java:19) [classes/:?]
+2023-07-08 17:56:32,383 ERROR o.example [main] At try block error was occurred
+java.lang.Exception: Bla bla
+	at org.example.HiberRunner.main(HiberRunner.java:19) [classes/:?]
+2023-07-08 17:57:03,460 ERROR o.example [main] At try block error was occurred
+java.lang.Exception: Bla bla
+	at org.example.HiberRunner.main(HiberRunner.java:19) [classes/:?]

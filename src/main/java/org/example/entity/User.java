@@ -16,14 +16,7 @@ import org.hibernate.type.SqlTypes;
 @Table(name = "users", schema = "public")
 public class User {
 
-    @Id
-    @GeneratedValue(generator = "sequenceGenerator3000TurboPro"
-            ,strategy = GenerationType.SEQUENCE)
-    @SequenceGenerator(name ="sequenceGenerator3000TurboPro",
-            sequenceName = "users_custom_id_seq", allocationSize = 1, initialValue = 10)
-    private Long id;
-
-    @Embedded
+    @EmbeddedId
     @AttributeOverride(name = "birthDay", column = @Column(name = "birth_date"))
     @AttributeOverride(name = "deathDay", column = @Column(name = "death_date"))
     private PersonInfo info;
