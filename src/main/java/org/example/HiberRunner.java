@@ -42,9 +42,11 @@ public class HiberRunner {
                     .role(Role.ADMIN)
                     .recipe(new Recipe("cancer", "lie in bed"))
                     .build();
+            System.out.println(user.toString());
             session.persist(user);
+            System.out.println(user);
             session.getTransaction().commit();
-
+            System.out.println(user);
 
 
 

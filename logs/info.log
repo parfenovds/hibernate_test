@@ -34,3 +34,489 @@
 2023-07-08 15:37:22,454 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
 2023-07-08 15:37:23,084 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 2023-07-08 15:37:23,216 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:09:57,488 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:09:57,492 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:09:57,970 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:09:57,978 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:09:57,978 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:09:57,978 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:09:57,979 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:09:57,981 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:09:58,786 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:09:59,427 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:09:59,560 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:10:50,689 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:10:50,692 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:10:51,109 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:10:51,111 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:10:51,112 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:10:51,112 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:10:51,112 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:10:51,113 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:10:51,568 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:10:52,133 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:10:52,272 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:11:32,245 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:11:32,248 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:11:32,634 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:11:32,637 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:11:32,637 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:11:32,637 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:11:32,637 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:11:32,640 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:11:33,122 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:11:33,669 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:11:33,808 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:19:32,898 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:19:32,903 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:19:33,346 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:19:33,349 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:19:33,349 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:19:33,349 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:19:33,349 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:19:33,351 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:19:33,878 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:19:34,625 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:19:34,776 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 0, SQLState: 42P01
+2023-07-08 16:19:34,776 ERROR o.h.e.j.s.SqlExceptionHelper [main] ERROR: relation "public.users" does not exist
+  Позиция: 13
+2023-07-08 16:19:34,783 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:25:38,945 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:25:38,949 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:25:39,364 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:25:39,368 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:25:39,368 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:25:39,368 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:25:39,368 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:25:39,370 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:25:39,899 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:25:40,586 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:25:40,799 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:25:43,870 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:25:43,872 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:25:44,270 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:25:44,273 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:25:44,274 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:25:44,274 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:25:44,274 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:25:44,276 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:25:44,785 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:25:45,383 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:25:45,515 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:25:48,029 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:25:48,033 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:25:48,378 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:25:48,381 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:25:48,381 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:25:48,382 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:25:48,382 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:25:48,384 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:25:48,844 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:25:49,409 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:25:49,532 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:28:22,787 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:28:22,790 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:28:23,226 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:28:23,232 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:28:23,232 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:28:23,232 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:28:23,232 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:28:23,234 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:28:23,756 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:28:24,345 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:28:24,469 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:29:49,549 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:29:49,553 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:29:49,955 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:29:49,960 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:29:49,960 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:29:49,960 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:29:49,960 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:29:49,962 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:29:51,266 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:29:52,278 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:29:52,423 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:29:55,510 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:29:55,513 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:29:55,959 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:29:55,962 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:29:55,962 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:29:55,962 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:29:55,962 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:29:55,964 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:29:56,540 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:29:57,144 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:29:57,292 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:31:17,836 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:31:17,840 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:31:18,256 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:31:18,260 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:31:18,260 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:31:18,260 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:31:18,260 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:31:18,262 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:31:18,829 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:31:19,446 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:31:19,590 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:31:24,483 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:31:24,487 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:31:24,872 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:31:24,875 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:31:24,875 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:31:24,875 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:31:24,875 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:31:24,878 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:31:25,361 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:31:25,939 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:31:26,073 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:32:09,237 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:32:09,241 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:32:09,605 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:32:09,609 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:32:09,609 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:32:09,609 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:32:09,610 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:32:09,612 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:32:10,112 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:32:10,692 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:32:10,830 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:32:14,414 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:32:14,417 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:32:14,788 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:32:14,793 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:32:14,793 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:32:14,793 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:32:14,793 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:32:14,796 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:32:15,297 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:32:16,306 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:32:16,538 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:33:44,440 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:33:44,444 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:33:44,940 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:33:44,944 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:33:44,944 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:33:44,944 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:33:44,944 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:33:44,946 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:33:45,485 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:33:46,116 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:33:46,261 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:33:49,148 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:33:49,159 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:33:49,522 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:33:49,526 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:33:49,526 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:33:49,526 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:33:49,526 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:33:49,528 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:33:49,992 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:33:50,596 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:33:50,740 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:34:08,468 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:34:08,471 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:34:08,839 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:34:08,842 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:34:08,842 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:34:08,842 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:34:08,842 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:34:08,844 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:34:09,324 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:34:09,903 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:34:10,026 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:35:10,192 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:35:10,196 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:35:10,613 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:35:10,617 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:35:10,617 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:35:10,617 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:35:10,617 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:35:10,619 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:35:11,154 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:35:11,769 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:35:11,911 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:35:15,131 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:35:15,135 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:35:15,528 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:35:15,532 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:35:15,533 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:35:15,533 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:35:15,533 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:35:15,535 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:35:16,093 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:35:16,635 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:35:16,761 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:35:20,067 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:35:20,071 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:35:20,429 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:35:20,432 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:35:20,432 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:35:20,433 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:35:20,433 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:35:20,435 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:35:20,921 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:35:21,470 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:35:21,591 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:36:11,160 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:36:11,164 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:36:11,611 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:36:11,615 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:36:11,616 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:36:11,616 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:36:11,616 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:36:11,618 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:36:12,190 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:36:12,342 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:37:10,650 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:37:10,654 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:37:11,017 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:37:11,020 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:37:11,021 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:37:11,021 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:37:11,021 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:37:11,038 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:37:11,517 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:37:12,118 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:37:12,267 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:39:36,798 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:39:36,810 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:39:37,499 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:39:37,503 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:39:37,503 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:39:37,503 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:39:37,503 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:39:37,505 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:39:38,034 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:39:38,937 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:39:39,140 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:39:45,635 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:39:45,640 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:39:46,020 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:39:46,022 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:39:46,023 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:39:46,023 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:39:46,023 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:39:46,024 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:39:46,505 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:39:47,062 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:39:47,199 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:41:19,265 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:41:19,269 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:41:19,672 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:41:19,675 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:41:19,675 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:41:19,676 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:41:19,676 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:41:19,677 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:41:20,158 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:41:20,756 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:41:20,886 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:41:23,695 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:41:23,698 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:41:24,104 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:41:24,107 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:41:24,107 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:41:24,107 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:41:24,108 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:41:24,109 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:41:24,565 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:41:25,164 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:41:25,347 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:42:14,885 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:42:14,888 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:42:15,269 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:42:15,271 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:42:15,272 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:42:15,272 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:42:15,272 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:42:15,273 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:42:15,730 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:42:16,307 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:42:16,437 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:42:19,739 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:42:19,742 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:42:20,106 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:42:20,108 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:42:20,109 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:42:20,109 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:42:20,109 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:42:20,111 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:42:20,564 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:42:21,106 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:42:21,258 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:42:26,299 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:42:26,302 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:42:26,665 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:42:26,668 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:42:26,668 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:42:26,669 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:42:26,669 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:42:26,670 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:42:27,139 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:42:27,715 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:42:27,847 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:49:27,069 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:49:27,074 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:49:27,495 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:49:27,499 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:49:27,499 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:49:27,499 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:49:27,499 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:49:27,500 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:49:28,051 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:49:28,662 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:49:28,799 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:49:31,713 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:49:31,717 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:49:32,096 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:49:32,099 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:49:32,099 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:49:32,099 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:49:32,099 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:49:32,101 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:49:32,587 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:49:33,161 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:49:33,297 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:49:36,465 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:49:36,467 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:49:36,826 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:49:36,829 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:49:36,829 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:49:36,829 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:49:36,829 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:49:36,831 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:49:37,292 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:49:37,855 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:49:37,984 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:49:52,843 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:49:52,847 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:49:53,218 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:49:53,221 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:49:53,221 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:49:53,221 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:49:53,221 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:49:53,223 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:49:53,692 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:49:54,301 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:49:54,429 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:53:26,825 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:53:26,829 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:53:27,252 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:53:27,256 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:53:27,256 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:53:27,257 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:53:27,257 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:53:27,259 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:53:27,772 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:53:28,405 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:53:28,535 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:53:31,759 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:53:31,762 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:53:32,154 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:53:32,157 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:53:32,158 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:53:32,158 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:53:32,158 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:53:32,160 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:53:32,665 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:53:33,223 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:53:33,407 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:53:36,574 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:53:36,577 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:53:36,938 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:53:36,940 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:53:36,941 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:53:36,941 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:53:36,941 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:53:36,943 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:53:37,413 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:53:38,039 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:53:38,205 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:53:41,207 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:53:41,210 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:53:41,571 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:53:41,574 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:53:41,574 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:53:41,574 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:53:41,574 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:53:41,576 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:53:42,037 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:53:42,585 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:53:42,713 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:54:32,278 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:54:32,283 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:54:32,615 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:54:32,619 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:54:32,619 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:54:32,619 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:54:32,620 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:54:32,622 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:54:33,083 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:54:33,672 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:54:33,815 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:54:36,960 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:54:36,962 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:54:37,316 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:54:37,320 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:54:37,320 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:54:37,320 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:54:37,321 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:54:37,322 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:54:37,768 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:54:38,330 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:54:38,459 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:54:41,487 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:54:41,490 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:54:41,856 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:54:41,859 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:54:41,860 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:54:41,860 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:54:41,860 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:54:41,861 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:54:42,327 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:54:42,889 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:54:43,015 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:54:46,010 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:54:46,016 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:54:46,385 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:54:46,388 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:54:46,389 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:54:46,389 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:54:46,389 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:54:46,390 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:54:46,862 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:54:47,433 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:54:47,567 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:58:03,232 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:58:03,236 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:58:03,694 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:58:03,698 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:58:03,698 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:58:03,699 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:58:03,699 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:58:03,700 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:58:04,216 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:58:04,811 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:58:04,927 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:58:07,845 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:58:07,849 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:58:08,204 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:58:08,208 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:58:08,208 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:58:08,208 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:58:08,208 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:58:08,210 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:58:08,677 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:58:09,471 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:58:09,670 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:58:13,171 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.3.Final
+2023-07-08 16:58:13,175 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-07-08 16:58:13,544 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-08 16:58:13,547 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-08 16:58:13,548 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/postgres]
+2023-07-08 16:58:13,548 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-07-08 16:58:13,548 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-07-08 16:58:13,549 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-07-08 16:58:14,014 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-07-08 16:58:14,574 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-08 16:58:14,716 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]

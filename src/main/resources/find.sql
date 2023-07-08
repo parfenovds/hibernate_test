@@ -1,13 +1,13 @@
-DROP TABLE test;
-CREATE TABLE IF NOT EXISTS test(
-  id BIGSERIAL,
-  text TEXT,
-  birth_date DATE
-);
+DROP TABLE users;
+
+CREATE SEQUENCE IF NOT EXISTS users_custom_id_seq
+    minvalue 1
+    start with 1
+    increment by 10;
 
 CREATE TABLE IF NOT EXISTS users
 (
-id BIGSERIAL PRIMARY KEY,
+id int default nextval('users_custom_id_seq') primary key,
 user_name VARCHAR(128),
 first_name VARCHAR(128),
 last_name VARCHAR(128),
@@ -17,4 +17,12 @@ role VARCHAR(32),
 recipe JSONB
 );
 
-DROP TABLE users;
+
+/*
+CREATE [ { TEMPORARY | TEMP } | UNLOGGED ] SEQUENCE [ IF NOT EXISTS ] name
+    [ AS data_type ]
+    [ INCREMENT [ BY ] increment ]
+    [ MINVALUE minvalue | NO MINVALUE ] [ MAXVALUE maxvalue | NO MAXVALUE ]
+    [ START [ WITH ] start ] [ CACHE cache ] [ [ NO ] CYCLE ]
+    [ OWNED BY { table_name.column_name | NONE } ]
+*/
