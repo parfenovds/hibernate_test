@@ -17,10 +17,7 @@ import org.hibernate.type.SqlTypes;
 public class User {
 
     @Id
-    @GeneratedValue(generator = "sequenceGenerator3000TurboPro"
-            ,strategy = GenerationType.SEQUENCE)
-    @SequenceGenerator(name ="sequenceGenerator3000TurboPro",
-            sequenceName = "users_custom_id_seq", allocationSize = 1, initialValue = 10)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Embedded
@@ -30,6 +27,10 @@ public class User {
 
     @Enumerated(EnumType.STRING)
     private Role role;
+
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "company_id")
+    private Company company;
 
     @JdbcTypeCode(SqlTypes.JSON)
     private Recipe recipe;

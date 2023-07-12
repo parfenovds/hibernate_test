@@ -1,18 +1,20 @@
 DROP TABLE users;
-DROP SEQUENCE users_custom_id_seq;
+DROP TABLE company;
 
-CREATE SEQUENCE IF NOT EXISTS users_custom_id_seq
-    INCREMENT 10
-    START 10;
+CREATE TABLE company (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(32)
+);
 
 CREATE TABLE IF NOT EXISTS users
 (
-id int default nextval('users_custom_id_seq') primary key,
+id BIGSERIAL primary key,
 user_name VARCHAR(128),
 first_name VARCHAR(128),
 last_name VARCHAR(128),
 birth_date DATE,
 death_date DATE,
+company_id INT REFERENCES company(id),
 role VARCHAR(32),
 recipe JSONB
 );
