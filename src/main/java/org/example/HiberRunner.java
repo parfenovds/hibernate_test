@@ -10,6 +10,7 @@ import org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy;
 import org.hibernate.cfg.Configuration;
 
 import java.time.LocalDate;
+import java.util.LinkedHashSet;
 
 @Slf4j(topic = "org.example")
 public class HiberRunner {
@@ -21,28 +22,37 @@ public class HiberRunner {
         configuration.addAnnotatedClass(User.class);
         configuration.addAnnotatedClass(Company.class);
         configuration.setPhysicalNamingStrategy(new CamelCaseToUnderscoresNamingStrategy());
-        Company company = Company.builder()
-                .name("Google")
-                .build();
-        User user = User.builder()
-                .info(PersonInfo.builder()
-                        .userName("Vredina")
-                        .firstName("Dmitriy")
-                        .lastName("Parfenov")
-                        .birthDay(new Birthday(LocalDate.now()))
-                        .deathDay(new Deathday(LocalDate.now(), LocalDate.now().plusDays(10)))
-                        .build())
-                .company(company)
-                .role(Role.ADMIN)
-                .recipe(new Recipe("cancer", "lie in bed"))
-                .build();
+
+
         try (SessionFactory factory = configuration.buildSessionFactory();
              Session session = factory.openSession()) {
             session.beginTransaction();
-            User user1 = session.get(User.class, 3L);
-            Company company1 = user1.getCompany();
-            System.out.println(company1.toString());
+            User user = User.builder()
+                    .info(PersonInfo.builder()
+                            .userName("Number2")
+                            .firstName("Dmitriy")
+                            .lastName("Parfenov")
+                            .birthDay(new Birthday(LocalDate.now()))
+                            .deathDay(new Deathday(LocalDate.now(), LocalDate.now().plusDays(10)))
+                            .build())
+                    .role(Role.ADMIN)
+                    .recipe(new Recipe("cancer", "lie in bed"))
+                    .build();
+//            System.out.println(user.hashCode());
+//            Company company = session.find(Company.class, 9L);
+////            Company company = Company.builder().name("Company2").build();
+//            company.getUsers().add(user);
+//            System.out.println(company.getUsers().contains(user));
+//            session.persist(user);
+//            System.out.println(company.getUsers().contains(user));
+//            System.out.println(user.hashCode());
+            User user1 = session.get(User.class, 24L);
+            System.out.println(user1);
             session.getTransaction().commit();
         }
+
+
+
+
     }
 }

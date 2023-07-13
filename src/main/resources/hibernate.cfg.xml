@@ -12,6 +12,8 @@
     <property name="show_sql">true</property>
     <property name="format_sql">true</property>
     <property name="hibernate.id.new_generator_mappings">true</property>
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.hbm2ddl">validate</property>
     <!-- DB schema will be updated if needed -->
     <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
   </session-factory>

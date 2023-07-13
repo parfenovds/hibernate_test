@@ -1,12 +1,11 @@
 package org.example.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.hibernate.annotations.JdbcTypeCode;
 import org.hibernate.type.SqlTypes;
+
+import java.util.Objects;
 
 @Data
 @NoArgsConstructor
@@ -15,6 +14,19 @@ import org.hibernate.type.SqlTypes;
 @Entity
 @Table(name = "users", schema = "public")
 public class User {
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return Objects.equals(id, user.id) && Objects.equals(info, user.info) && role == user.role && Objects.equals(company, user.company) && Objects.equals(recipe, user.recipe);
+    }
+
+    @Override
+    public int hashCode() {
+        return 13;
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
