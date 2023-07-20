@@ -6,6 +6,13 @@ CREATE TABLE company (
     name VARCHAR(32)
 );
 
+CREATE TABLE profile
+(
+    id BIGSERIAL PRIMARY KEY,
+    user_id BIGINT NOT NULL UNIQUE REFERENCES users(id),
+    street VARCHAR(128)
+);
+
 CREATE TABLE IF NOT EXISTS users
 (
 id BIGSERIAL primary key,

@@ -19,6 +19,7 @@ public class HiberRunner {
         Configuration configuration = new Configuration().configure();
         configuration.addAttributeConverter(DeathdayConverter.class, true);
         configuration.addAttributeConverter(BirthdayConverter.class, true);
+        configuration.addAnnotatedClass(Profile.class);
         configuration.addAnnotatedClass(User.class);
         configuration.addAnnotatedClass(Company.class);
         configuration.setPhysicalNamingStrategy(new CamelCaseToUnderscoresNamingStrategy());

@@ -11,6 +11,7 @@ import java.util.Objects;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@ToString(exclude = {"company", "profile"})
 @Entity
 @Table(name = "users", schema = "public")
 public class User {
@@ -46,4 +47,7 @@ public class User {
 
     @JdbcTypeCode(SqlTypes.JSON)
     private Recipe recipe;
+
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
+    private Profile profile;
 }
