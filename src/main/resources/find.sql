@@ -1,5 +1,6 @@
 DROP TABLE users;
-DROP TABLE company;
+DROP TABLE users_teams;
+DROP TABLE teams;
 
 CREATE TABLE company (
     id BIGSERIAL PRIMARY KEY,
@@ -26,12 +27,15 @@ role VARCHAR(32),
 recipe JSONB
 );
 
+CREATE TABLE chat
+(
+    id BIGSERIAL PRIMARY KEY ,
+    name VARCHAR(65) NOT NULL  UNIQUE
+);
 
-/*
-CREATE [ { TEMPORARY | TEMP } | UNLOGGED ] SEQUENCE [ IF NOT EXISTS ] name
-    [ AS data_type ]
-    [ INCREMENT [ BY ] increment ]
-    [ MINVALUE minvalue | NO MINVALUE ] [ MAXVALUE maxvalue | NO MAXVALUE ]
-    [ START [ WITH ] start ] [ CACHE cache ] [ [ NO ] CYCLE ]
-    [ OWNED BY { table_name.column_name | NONE } ]
-*/
+CREATE TABLE  users_chat
+(
+    user_id BIGINT REFERENCES users(id),
+    chat_id BIGINT REFERENCES chat(id),
+    PRIMARY KEY (user_id,chat_id)
+)

@@ -21,6 +21,7 @@ public class HiberRunner {
         configuration.addAttributeConverter(BirthdayConverter.class, true);
         configuration.addAnnotatedClass(Profile.class);
         configuration.addAnnotatedClass(User.class);
+        configuration.addAnnotatedClass(Chat.class);
         configuration.addAnnotatedClass(Company.class);
         configuration.setPhysicalNamingStrategy(new CamelCaseToUnderscoresNamingStrategy());
 
@@ -39,16 +40,13 @@ public class HiberRunner {
                     .role(Role.ADMIN)
                     .recipe(new Recipe("cancer", "lie in bed"))
                     .build();
-//            System.out.println(user.hashCode());
-//            Company company = session.find(Company.class, 9L);
-////            Company company = Company.builder().name("Company2").build();
-//            company.getUsers().add(user);
-//            System.out.println(company.getUsers().contains(user));
-//            session.persist(user);
-//            System.out.println(company.getUsers().contains(user));
-//            System.out.println(user.hashCode());
-            User user1 = session.get(User.class, 24L);
-            System.out.println(user1);
+
+            var chat = Chat.builder()
+                    .name("dmdev")
+                    .build();
+            session.persist(chat);
+            session.persist(user);
+//
             session.getTransaction().commit();
         }
 

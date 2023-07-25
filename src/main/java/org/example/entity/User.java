@@ -5,7 +5,9 @@ import lombok.*;
 import org.hibernate.annotations.JdbcTypeCode;
 import org.hibernate.type.SqlTypes;
 
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
 @Data
 @NoArgsConstructor
@@ -22,6 +24,11 @@ public class User {
         if (o == null || getClass() != o.getClass()) return false;
         User user = (User) o;
         return Objects.equals(id, user.id) && Objects.equals(info, user.info) && role == user.role && Objects.equals(company, user.company) && Objects.equals(recipe, user.recipe);
+    }
+
+    @PrePersist
+    public void  soutGreetings(){
+        System.out.println("User is saved");
     }
 
     @Override
@@ -50,4 +57,16 @@ public class User {
 
     @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
     private Profile profile;
+
+    @Builder.Default
+    @ManyToMany
+    @JoinTable(name = "users_chat",
+                joinColumns = @JoinColumn(name = "user_id"),
+                inverseJoinColumns = @JoinColumn(name ="chat_id"))
+    private Set<Chat> chats = new HashSet<>();
+
+    public void addChat(Chat chat){
+        chats.add(chat);
+        chat.getUsers().add(this);
+    }
 }
