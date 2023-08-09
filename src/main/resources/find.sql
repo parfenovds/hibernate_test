@@ -5,6 +5,16 @@ CREATE TABLE company (
     id BIGSERIAL PRIMARY KEY,
     name VARCHAR(32)
 );
+ALTER TABLE company
+    ADD COLUMN address_id BIGINT;
+
+CREATE TABLE address (
+                         id BIGSERIAL PRIMARY KEY,
+                         street VARCHAR(255),
+                         city VARCHAR(255),
+                         postal_code VARCHAR(20)
+);
+
 
 CREATE TABLE IF NOT EXISTS users
 (

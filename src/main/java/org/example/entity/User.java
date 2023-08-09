@@ -14,6 +14,16 @@ import org.hibernate.type.SqlTypes;
 @Builder
 @Entity
 @Table(name = "users", schema = "public")
+@NamedEntityGraph(name = "UserWithCompany",
+attributeNodes = {
+        @NamedAttributeNode(value = "company"),
+        @NamedAttributeNode(value = "company", subgraph = "addressSubGraph")
+},
+subgraphs = {
+        @NamedSubgraph(name = "addressSubGraph", attributeNodes = {
+                @NamedAttributeNode("address")
+        })
+})
 public class User {
 
     @Id
